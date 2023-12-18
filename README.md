@@ -1,3 +1,6 @@
+current usage:
+- .\proxysette <file path> (output will be in /converted/ folder in proxysette root folder)
+
 features:
 - convert any file (.t64, .tap, .d64, .prg) to .wav using audiotap/wavprg
 - extract files from .zip
@@ -19,7 +22,8 @@ main workflow:
 - convert to wav
 - save on folder
 
-
+planned features:
+- gui
 - playback
 - allow volume adjustment
 - pause/stop playback
