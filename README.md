@@ -15,10 +15,10 @@ Basically TapDancer for PC.
 - Run this command: `.\proxysette <file path>`
 - Converted files will be in `converted` folder inside the same folder as where the tool is stored
 # Supported Formats
-- .tap
-- .prg
-- .t64
-- .zip
+- `.tap`
+- `.prg`
+- `.t64`
+- `.zip`
 # Roadmap and Current Status
 Proxysette is currently in **active development** and is not complete yet. Feel free to contribute!
 
