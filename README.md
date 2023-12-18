@@ -3,6 +3,8 @@
 
 Proxysette is an easy to use datasette emulator for the original Commodore 64. Written in Rust, it currently runs on Windows platforms only.
 
+By using Proxysette you can run pretty much any software you find available for Commodore 64 on your actual Commodore 64, provided you are using a car cassette adapter or can write on tape!
+
 Simply pass it any kind of C64 image file (`.tap`, `.t64`, `.prg`, `.d64`, even if stored in `.zip`) and it will get converted to a `.wav` file which you can then play while your system is connected to the car cassette adapter.
 
 Proxysette also stores the converted `.wav` files to playback whenever you want.
