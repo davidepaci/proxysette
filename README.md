@@ -1,3 +1,8 @@
+# Proxysette
+Proxysette is an easy to use datasette emulator for the original Commodore 64.
+Simply pass it any kind of C64 image file (`.tap`, `.t64`, `.prg`, `.d64`) 
+Basically TapDancer for PC.
+
 current usage:
 - .\proxysette <file path> (output will be in /converted/ folder in proxysette root folder)
 
@@ -30,9 +35,6 @@ planned features:
 - list already converted wavs
 - select already converted wavs for playback
 - open instructions
-
-todo:
-- gui
 - add c64ntsc support (only taps work for now)
 - store user settings (platform for prg and t64, volume, converted software)
 - document
@@ -50,3 +52,7 @@ todo:
 - deployments? automatic authors? automatic documentation on wiki? automatic testing before pull request?
 - ask opensource contribution to issues
 - release on forums/sourceforge?
+
+Credits:
+- [Audiotap](https://wav-prg.sourceforge.io/audiotap.html) by Fabrizio Gennari
+- [WAV-PRG](https://wav-prg.sourceforge.io/wavprg.html) by Fabrizio Gennari
