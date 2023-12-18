@@ -1,0 +1,22 @@
+[tasks.build]
+description = "Build the Rust application"
+command = "cargo"
+args = ["build", "--release"]
+
+[tasks.copy_tools]
+description = "Copy tools folder next to the compiled application"
+script = '''
+    mkdir -p target/release/tools
+    cp -r tools/* target/release/tools/
+'''
+
+[tasks.package]
+description = "Create a zip archive containing the compiled application and tools"
+script = '''
+    cd target/release
+    zip -r my_app_with_tools.zip my_application tools
+'''
+
+# Define the flow of tasks
+[env]
+default = ["build", "copy_tools", "package"]
