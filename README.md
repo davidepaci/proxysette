@@ -7,7 +7,7 @@ By using Proxysette you can run pretty much any software you find available for 
 
 **Written in Rust, it currently runs on Windows platforms only. Linux/macOS support coming in the future.**
 
-Simply pass it any kind of C64 image file (`.tap`, `.t64`, `.prg`, `.d64`, even if stored in `.zip`) and it will get converted to a `.wav` file which you can then play while your system is connected to the car cassette adapter.
+Simply feed it any kind of C64 image file (`.tap`, `.t64`, `.prg`, `.d64`, even if stored in `.zip`) and Proxysette will automatically convert it to a `.wav` file which you can then play while your system is connected to the car cassette adapter.
 
 Proxysette also stores the converted `.wav` files to playback whenever you want.
 
