@@ -7,9 +7,9 @@ args = ["build", "--release"]
 description = "Copy files to put into archive next to the compiled application"
 script = '''
     mkdir target\release\tools
-    xcopy /s tools\* target\release\tools\
-    xcopy LICENSE.md target\release
-    xcopy docs\USAGE.md target\release
+    cp -r /s tools\* target\release\tools\
+    cp LICENSE.md target\release
+    cp docs\USAGE.md target\release
 '''
 
 [tasks.package]
