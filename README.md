@@ -29,32 +29,6 @@ Proxysette is currently in **active development** and is not complete yet. Feel 
 The tool is meant to have playback functionality, `.d64` support, Linux/macOS support and a functional GUI.
 
 All planned features are in the [Issues](https://github.com/davidepaci/Proxysette/issues) section.
-- d64 conversion
-- gui
-- playback
-- allow volume adjustment
-- pause/stop playback
-- list already converted wavs
-- select already converted wavs for playback
-- open instructions (car cassette adapter, press C=, wait, then type RUN)
-- add c64ntsc support (only taps work for now)
-- store user settings (platform for prg and t64, volume, converted software)
-- document
-- print only in debug mode
-- doesn't sign wav
-- proper readme + credits
-- semantic versioning
-- code refactor; increase quality
-- lint code
-- linux/macos support
-- find out what's that %appdata% stuff programs always use to store stuff?
-- wiki
-- proper readme (instructions, credits), logo, stats, etc
-- packages? releases? projects?
-- website?
-- deployments? automatic authors? automatic documentation on wiki? automatic testing before pull request?
-- ask opensource contribution to issues
-- release on forums/sourceforge?
 # Contribution
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 # License
