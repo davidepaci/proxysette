@@ -51,6 +51,7 @@ All planned features are in the [Issues](https://github.com/davidepaci/Proxysett
 - wiki
 - proper readme (instructions, credits), logo, stats, etc
 - packages? releases? projects?
+- website?
 - deployments? automatic authors? automatic documentation on wiki? automatic testing before pull request?
 - ask opensource contribution to issues
 - release on forums/sourceforge?
