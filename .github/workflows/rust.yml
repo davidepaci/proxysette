@@ -20,6 +20,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.token }}
         with:
           RUSTTARGET: ${{ matrix.target }}
-          EXTRA_FILES: "README.md LICENSE USAGE"
+          EXTRA_FILES: "README.md LICENSE USAGE.md"
           ARCHIVE_NAME: "proxysette_x86_64_windows.zip"
           
