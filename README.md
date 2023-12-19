@@ -36,6 +36,5 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 If you want other formats to be supported or any other feature, please [make an Issue](https://github.com/davidepaci/Proxysette/issues/new).
 # License
 Proxysette is available as open source under the terms of the [MIT License](https://opensource.org/license/mit/). See the [LICENSE.md](https://github.com/davidepaci/Proxysette/blob/main/LICENSE) file for details
-# Acknowledgments
-- [Audiotap](https://wav-prg.sourceforge.io/audiotap.html) by Fabrizio Gennari
-- [WAV-PRG](https://wav-prg.sourceforge.io/wavprg.html) by Fabrizio Gennari
+# Thanks
+Special thanks to Fabrizio Gennari for creating [Audiotap](https://wav-prg.sourceforge.io/audiotap.html) and [WAV-PRG](https://wav-prg.sourceforge.io/wavprg.html).
