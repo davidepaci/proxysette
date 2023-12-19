@@ -1,7 +1,7 @@
 use crate::conversions::utils;
+use crate::conversions::utils::strip_path_prefix;
 use std::path::PathBuf;
 use std::process::Command;
-use crate::conversions::utils::strip_path_prefix;
 
 pub fn convert(origin_path: PathBuf) {
     // get file stem from absolute path
