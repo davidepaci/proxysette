@@ -1,14 +1,25 @@
-name: Release Workflow
+# .github/workflows/release.yml
 
 on:
-  push:
-    branches:
-      - main  # You can change this to match your main branch name
+  release:
+    types: [created]
 
 jobs:
-  build:
-    runs-on: ubuntu-latest  # You can change the operating system as needed
-
+  release:
+    name: release ${{ matrix.target }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        target: [x86_64-pc-windows-gnu]
     steps:
-      - name: Rust Release binary
+      - uses: actions/checkout@master
+      - name: Compile and release
         uses: rust-build/rust-build.action@v1.4.4
+        env:
+          GITHUB_TOKEN: ${{ secrets.token }}
+        with:
+          RUSTTARGET: ${{ matrix.target }}
+          EXTRA_FILES: "README.md LICENSE USAGE"
+          ARCHIVE_NAME: "proxysette_x86_64_windows.zip"
+          
