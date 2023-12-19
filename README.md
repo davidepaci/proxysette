@@ -1,34 +1,42 @@
-features:
-- convert any file (.t64, .tap, .d64, .prg) to .wav using audiotap/wavprg
-- extract files from .zip
-- play .wav at x volume
-- adjust x volume
-- saves converted .wavs for instant playback
-- instructions (car cassette adapter, press C=, wait, then type RUN)
+# Proxysette
+[![forthebadge](https://forthebadge.com/images/badges/made-with-rust.svg)](https://forthebadge.com) [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/davidepaci)
 
-converts:
-- .tap audiotap
-- .prg wav-prg
-- .t64 wav-prg
-- .d64 to .prg dirmaster
+Proxysette is an easy to use datasette emulator for the original Commodore 64.
 
-main workflow:
-- get file
-- check format
-- if zip extract and find format (get first in order)
-- convert to wav
-- save on folder
+By using Proxysette you can run pretty much any software you find available for Commodore 64 on your actual Commodore 64, provided you are using a car cassette adapter or can write on tape!
 
+**Written in Rust, it currently runs on Windows platforms only. Linux/macOS support coming in the future.**
 
+Simply pass it any kind of C64 image file (`.tap`, `.t64`, `.prg`, `.d64`, even if stored in `.zip`) and it will get converted to a `.wav` file which you can then play while your system is connected to the car cassette adapter.
+
+Proxysette also stores the converted `.wav` files to playback whenever you want.
+
+Basically TapDancer for PC.
+# Installation
+- Downloaded the latest release and extract it
+## How to Use
+- Open up your computer's terminal
+- Run this command: `.\proxysette <file path>`
+- Converted files will be in `converted` folder inside the same folder as where the tool is stored
+# Supported Formats
+- `.tap`
+- `.prg`
+- `.t64`
+- `.zip`
+# Roadmap and Current Status
+Proxysette is currently in **active development** and is not complete yet. Feel free to contribute!
+
+The tool is meant to have playback functionality, `.d64` support, Linux/macOS support and a functional GUI.
+
+All planned features are in the [Issues](https://github.com/davidepaci/Proxysette/issues) section.
+- d64 conversion
+- gui
 - playback
 - allow volume adjustment
 - pause/stop playback
 - list already converted wavs
 - select already converted wavs for playback
-- open instructions
-
-todo:
-- gui
+- open instructions (car cassette adapter, press C=, wait, then type RUN)
 - add c64ntsc support (only taps work for now)
 - store user settings (platform for prg and t64, volume, converted software)
 - document
@@ -38,7 +46,7 @@ todo:
 - semantic versioning
 - code refactor; increase quality
 - lint code
-- linux and mac portability
+- linux/macos support
 - find out what's that %appdata% stuff programs always use to store stuff?
 - wiki
 - proper readme (instructions, credits), logo, stats, etc
@@ -46,3 +54,10 @@ todo:
 - deployments? automatic authors? automatic documentation on wiki? automatic testing before pull request?
 - ask opensource contribution to issues
 - release on forums/sourceforge?
+# Contribution
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+# License
+Proxysette is available as open source under the terms of the [MIT License](https://opensource.org/license/mit/). See the [LICENSE.md](https://github.com/davidepaci/Proxysette/blob/main/LICENSE) file for details
+# Acknowledgments
+- [Audiotap](https://wav-prg.sourceforge.io/audiotap.html) by Fabrizio Gennari
+- [WAV-PRG](https://wav-prg.sourceforge.io/wavprg.html) by Fabrizio Gennari
