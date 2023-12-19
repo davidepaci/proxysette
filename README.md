@@ -13,7 +13,7 @@ Proxysette also stores the converted `.wav` files to playback whenever you want.
 
 Basically TapDancer for PC.
 # Installation
-- Downloaded the latest release and extract it
+- Downloaded the latest [Release](https://github.com/davidepaci/Proxysette/releases) and extract it
 ## How to Use
 - Open up your computer's terminal
 - Run this command: `.\proxysette <file path>`
