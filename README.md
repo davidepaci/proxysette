@@ -32,6 +32,8 @@ The tool is meant to have playback functionality, `.d64` support, Linux/macOS su
 All planned features are in the [Issues](https://github.com/davidepaci/Proxysette/issues) section.
 # Contribution
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+If you want other formats to be supported or any other feature, please [make an Issue](https://github.com/davidepaci/Proxysette/issues/new).
 # License
 Proxysette is available as open source under the terms of the [MIT License](https://opensource.org/license/mit/). See the [LICENSE.md](https://github.com/davidepaci/Proxysette/blob/main/LICENSE) file for details
 # Acknowledgments
