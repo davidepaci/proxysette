@@ -25,7 +25,7 @@ Basically TapDancer for PC.
 - `.t64`
 - `.zip`
 # Roadmap and Current Status
-Proxysette is currently in **active development** and is not complete yet. Feel free to contribute!
+Proxysette is currently **under development** and is not complete yet. Feel free to contribute!
 
 The tool is meant to have playback functionality, `.d64` support, Linux/macOS support and a functional GUI.
 
